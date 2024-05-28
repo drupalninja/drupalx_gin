@@ -1,7 +1,7 @@
 {
   "name": "drupalninja/drupalx_gin",
   "description": "DrupalX Gin integration, cleanup for Gin theme.",
-  "type": "drupal-theme",
+  "type": "drupal-module",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
