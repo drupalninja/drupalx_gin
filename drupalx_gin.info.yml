@@ -1,0 +1,5 @@
+name: DrupalX Gin
+type: module
+core_version_requirement: '^9.4 || ^10'
+dependencies:
+  - gin_lb

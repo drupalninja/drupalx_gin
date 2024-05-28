@@ -1,0 +1,103 @@
+
+/* Override layout builder modal and sidebar */
+.ui-dialog-off-canvas #drupal-off-canvas:not(.drupal-off-canvas-reset),
+#drupal-off-canvas-wrapper .ui-dialog-content {
+  overflow-x: hidden;
+}
+
+.layout-selection.glb-list li {
+  width: 100%;
+  height: auto;
+  float: none;
+  margin-right: 0;
+}
+
+.glb-claro-details {
+  overflow-x: hidden;
+}
+
+.glb-list li {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.glb-grid-item svg,
+.layout-builder-browser-block-item svg,
+.glb-grid-item img,
+.layout-builder-browser-block-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.glb-list-item,
+.glb-list a {
+  width: 100%;
+  margin-left: 7px !important;
+  padding-right: 37px !important;
+  padding-left: 30px !important;
+}
+
+/* Update help block size */
+.block-help-block {
+  font-size: 12px;
+}
+
+.block-help-block p {
+  margin-bottom: 0.5rem;
+}
+
+body .ui-dialog .ui-dialog-titlebar {
+  line-height: 2rem;
+}
+
+/* Hide handle */
+#layout-builder-modal a.tabledrag-handle .handle {
+  display: none;
+}
+
+body #layout-builder-modal ul {
+  background: #FFFFFF;
+}
+
+/* Override the move block sidebar */
+.layout-builder-components-table__block-label .tabledrag-handle {
+  position: relative;
+  top: 4px;
+}
+
+.layout-builder-components-table__block-label .tabledrag-handle .handle {
+  display: none;
+}
+
+#layout-builder-components-table table {
+  margin: 0 20px;
+}
+
+#layout-builder-components-table .tabledrag-changed-warning {
+  margin-bottom: 20px;
+}
+
+/* Add border around layout builder blocks */
+body .layout-builder-block {
+  border: 1px dashed #000000;
+  margin-bottom: 10px !important;
+}
+
+/* Adjust the layout builder links positioning */
+body .layout-builder__link--remove,
+body .layout-builder__link--configure {
+  top: -27px;
+}
+
+/* Make preview images full height */
+#layout-builder-modal .glb-media-library-item__preview img,
+.media-library-item__preview-wrapper .glb-media-library-item__preview img {
+  height: 100% !important;
+}
+
+/* Decrease the size of the add to library link */
+.layout-builder__link--add-section-to-library {
+  font-size: 1rem;
+}

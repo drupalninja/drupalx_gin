@@ -1,0 +1,4 @@
+drupalx_gin:
+  css:
+    theme:
+      css/drupalx_gin.css: { }
