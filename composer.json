@@ -1,0 +1,12 @@
+{
+  "name": "drupalninja/drupalx_gin",
+  "description": "DrupalX Gin integration, cleanup for Gin theme.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jay Callicott",
+      "role": ""
+    }
+  ]
+}
