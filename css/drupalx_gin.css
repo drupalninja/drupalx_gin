@@ -101,3 +101,8 @@ body .layout-builder__link--configure {
 .layout-builder__link--add-section-to-library {
   font-size: 1rem;
 }
+
+/* Hide blockquote icon from elements.css */
+blockquote::before {
+  display: none;
+}
