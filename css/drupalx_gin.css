@@ -23,11 +23,15 @@
   margin-right: 10px;
 }
 
+.layout-builder-browser-block-item {
+  text-align: center;
+}
+
 .glb-grid-item svg,
 .layout-builder-browser-block-item svg,
 .glb-grid-item img,
 .layout-builder-browser-block-item img {
-  width: 100%;
+  width: 95% !important;
   margin-bottom: 10px;
 }
 
