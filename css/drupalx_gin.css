@@ -112,3 +112,8 @@ body .layout-builder__link--configure {
 blockquote::before {
   display: none;
 }
+
+#layout-builder-modal .js-media-library-widget.fieldset:not(.fieldgroup)>legend {
+  position: relative;
+  top: 0;
+}
