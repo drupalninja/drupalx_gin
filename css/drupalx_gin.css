@@ -86,7 +86,9 @@ body #layout-builder-modal ul {
 /* Add border around layout builder blocks */
 body .layout-builder-block {
   border: 1px dashed #000000;
+  margin: 5px;
   margin-bottom: 10px !important;
+  padding: 5px;
 }
 
 /* Adjust the layout builder links positioning */
