@@ -113,7 +113,17 @@ blockquote::before {
   display: none;
 }
 
+/* Override the media library widget */
 #layout-builder-modal .js-media-library-widget.fieldset:not(.fieldgroup)>legend {
   position: relative;
   top: 0;
+}
+
+/* Override radio input */
+body .glb-form-boolean--type-radio:checked,
+body .glb-form-boolean--type-radio:checked:hover,
+body .glb-form-boolean--type-radio:checked:active,
+body .glb-form-boolean--type-radio:checked:focus,
+body .glb-form-boolean--type-radio:checked:hover:focus {
+  box-shadow: none !important;
 }
